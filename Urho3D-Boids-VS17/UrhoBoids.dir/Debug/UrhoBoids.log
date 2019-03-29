@@ -1,0 +1,5 @@
+﻿  CharacterDemo.cpp
+c:\urho3d\urho3d-1.7-vs17\include\urho3d\thirdparty\bullet\linearmath\btidebugdraw.h(173): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+c:\urho3d\urho3d-1.7-vs17\include\urho3d\thirdparty\bullet\linearmath\btidebugdraw.h(174): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+c:\urho3d\urho3d-1.7-vs17\include\urho3d\thirdparty\bullet\linearmath\btidebugdraw.h(175): warning C4305: 'argument': truncation from 'double' to 'const btScalar'
+  UrhoBoids.vcxproj -> C:\Urho3D\Urho3D-Boids-VS17\bin\UrhoBoids_d.exe

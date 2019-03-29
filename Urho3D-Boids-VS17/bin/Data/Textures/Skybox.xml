@@ -1,0 +1,9 @@
+<cubemap>
+    <face name="right.png" />
+    <face name="left.png" />
+    <face name="top.png" />
+    <face name="bot.png" />
+    <face name="front.png" />
+    <face name="back.png" />
+    <quality low="0" />
+</cubemap>

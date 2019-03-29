@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{A6BBB624-BA48-3EE2-9171-49CAD406DFE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A943E569-3BF5-3C06-89B5-167634515670} = {A943E569-3BF5-3C06-89B5-167634515670}
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F} = {C232B5F6-8B87-36EE-B740-64CDBAA0F44F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{3D95F6A6-16CE-34D2-AA44-A09366E9E2E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6BBB624-BA48-3EE2-9171-49CAD406DFE6} = {A6BBB624-BA48-3EE2-9171-49CAD406DFE6}
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F} = {C232B5F6-8B87-36EE-B740-64CDBAA0F44F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UrhoBoids", "UrhoBoids.vcxproj", "{A943E569-3BF5-3C06-89B5-167634515670}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F} = {C232B5F6-8B87-36EE-B740-64CDBAA0F44F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{C232B5F6-8B87-36EE-B740-64CDBAA0F44F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6BBB624-BA48-3EE2-9171-49CAD406DFE6}.Release|Win32.ActiveCfg = Release|Win32
+		{A6BBB624-BA48-3EE2-9171-49CAD406DFE6}.Release|Win32.Build.0 = Release|Win32
+		{A6BBB624-BA48-3EE2-9171-49CAD406DFE6}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{A6BBB624-BA48-3EE2-9171-49CAD406DFE6}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{A6BBB624-BA48-3EE2-9171-49CAD406DFE6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6BBB624-BA48-3EE2-9171-49CAD406DFE6}.Debug|Win32.Build.0 = Debug|Win32
+		{3D95F6A6-16CE-34D2-AA44-A09366E9E2E1}.Release|Win32.ActiveCfg = Release|Win32
+		{3D95F6A6-16CE-34D2-AA44-A09366E9E2E1}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{3D95F6A6-16CE-34D2-AA44-A09366E9E2E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A943E569-3BF5-3C06-89B5-167634515670}.Release|Win32.ActiveCfg = Release|Win32
+		{A943E569-3BF5-3C06-89B5-167634515670}.Release|Win32.Build.0 = Release|Win32
+		{A943E569-3BF5-3C06-89B5-167634515670}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{A943E569-3BF5-3C06-89B5-167634515670}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{A943E569-3BF5-3C06-89B5-167634515670}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A943E569-3BF5-3C06-89B5-167634515670}.Debug|Win32.Build.0 = Debug|Win32
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F}.Release|Win32.ActiveCfg = Release|Win32
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F}.Release|Win32.Build.0 = Release|Win32
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C232B5F6-8B87-36EE-B740-64CDBAA0F44F}.Debug|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {804160C0-9B73-3178-A1B1-C61CF1EBC155}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
